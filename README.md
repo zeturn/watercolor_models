@@ -99,6 +99,15 @@ Both templates showcase the following Watercolor UI components:
 - **Content**: Feature, Banner
 - And many more!
 
+## ⚙️ Setup Note
+
+Both templates currently use a locally built version of watercolor-ui (v1.1.16) that includes the React and Vue specific builds. To use the published npm package:
+
+1. Update `package.json` in each template to use `"watercolor-ui": "^1.1.16"`
+2. Update the CSS import paths (see individual template READMEs for details)
+
+The templates work out of the box with the included configuration and successfully build for production.
+
 ## 🛠️ Technology Stack
 
 ### React Template

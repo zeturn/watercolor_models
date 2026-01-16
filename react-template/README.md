@@ -48,6 +48,20 @@ This template demonstrates the design philosophy and capabilities of Watercolor 
 
 ## 📦 Installation
 
+**Note**: This template uses a locally built version of watercolor-ui. To use the published npm package instead:
+
+1. Update `package.json` to use the published version:
+   ```json
+   "watercolor-ui": "^1.1.16"
+   ```
+
+2. Update the CSS import in `src/App.jsx`:
+   ```javascript
+   import 'watercolor-ui/dist/watercolor-react.css'
+   ```
+
+Or continue using the local version:
+
 ```bash
 # Install dependencies
 npm install
