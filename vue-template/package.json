@@ -4,17 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "refresh:ui": "npm install --no-audit --no-fund @zeturn/watercolor-vue@latest @zeturn/watercolor-icons-feather@latest @zeturn/watercolor-icons-heroicons-vue@latest @zeturn/watercolor-icons-lucide-vue@latest @zeturn/watercolor-icons-phosphor-vue@latest @zeturn/watercolor-icons-tabler-vue@latest",
+    "predev": "npm run refresh:ui",
     "dev": "vite",
+    "prebuild": "npm run refresh:ui",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zeturn/watercolor-vue": "^1.1.39",
-    "@zeturn/watercolor-icons-feather": "^1.1.39",
-    "@zeturn/watercolor-icons-heroicons-vue": "^1.1.39",
-    "@zeturn/watercolor-icons-lucide-vue": "^1.1.39",
-    "@zeturn/watercolor-icons-phosphor-vue": "^1.1.39",
-    "@zeturn/watercolor-icons-tabler-vue": "^1.1.39",
+    "@zeturn/watercolor-vue": "latest",
+    "@zeturn/watercolor-icons-feather": "latest",
+    "@zeturn/watercolor-icons-heroicons-vue": "latest",
+    "@zeturn/watercolor-icons-lucide-vue": "latest",
+    "@zeturn/watercolor-icons-phosphor-vue": "latest",
+    "@zeturn/watercolor-icons-tabler-vue": "latest",
     "vue": "^3.5.24",
     "vue-router": "^4.6.4"
   },
