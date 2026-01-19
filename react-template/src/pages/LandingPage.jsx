@@ -50,32 +50,32 @@ function LandingPage() {
           marginBottom: '3rem'
         }}>
           <Feature
-            icon="🎨"
+            icon={<span role="img" aria-label="Design">🎨</span>}
             title="Beautiful Design"
             description="Watercolor-inspired aesthetics with attention to detail"
           />
           <Feature
-            icon="⚡"
+            icon={<span role="img" aria-label="Performance">⚡</span>}
             title="Lightning Fast"
             description="Optimized performance with tree-shaking support"
           />
           <Feature
-            icon="🔧"
+            icon={<span role="img" aria-label="Tools">🔧</span>}
             title="Easy to Use"
             description="Simple APIs with TypeScript support out of the box"
           />
           <Feature
-            icon="🌙"
+            icon={<span role="img" aria-label="Dark mode">🌙</span>}
             title="Dark Mode"
             description="Built-in dark mode support with CSS variables"
           />
           <Feature
-            icon="📱"
+            icon={<span role="img" aria-label="Responsive">📱</span>}
             title="Responsive"
             description="Mobile-first design that works on all devices"
           />
           <Feature
-            icon="🎯"
+            icon={<span role="img" aria-label="Customization">🎯</span>}
             title="Customizable"
             description="Easy theming with CSS variables and config files"
           />

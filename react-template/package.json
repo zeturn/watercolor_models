@@ -13,12 +13,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zeturn/watercolor-react": "latest",
-    "@zeturn/watercolor-icons-feather": "latest",
-    "@zeturn/watercolor-icons-heroicons-react": "latest",
-    "@zeturn/watercolor-icons-lucide-react": "latest",
-    "@zeturn/watercolor-icons-phosphor-react": "latest",
-    "@zeturn/watercolor-icons-tabler-react": "latest",
+    "@zeturn/watercolor-icons-feather": "^1.1.39",
+    "@zeturn/watercolor-icons-heroicons-react": "^1.1.39",
+    "@zeturn/watercolor-icons-lucide-react": "^1.1.39",
+    "@zeturn/watercolor-icons-phosphor-react": "^1.1.39",
+    "@zeturn/watercolor-icons-tabler-react": "^1.1.39",
+    "@zeturn/watercolor-react": "^1.1.39",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.12.0"

@@ -46,6 +46,8 @@ This template demonstrates the design philosophy and capabilities of Watercolor 
 
 ## 📦 Installation
 
+Note: `npm run dev` / `npm run build` will refresh Watercolor packages from npm (latest) on each run. This is convenient for rapid UI library iteration, but it makes builds non-reproducible.
+
 Install dependencies:
 
 ```bash

@@ -67,6 +67,8 @@ Both templates include the same 5 comprehensive example pages:
 
 ## 🚀 Quick Start
 
+Note: `npm run dev` / `npm run build` in each template will refresh Watercolor packages from npm (latest) on each run.
+
 ### React Template
 
 ```bash
