@@ -101,26 +101,26 @@ Both templates showcase the following Watercolor UI components:
 
 ## ⚙️ Setup Note
 
-Both templates currently use a locally built version of watercolor-ui (v1.1.16) that includes the React and Vue specific builds. To use the published npm package:
+These templates are aligned with the split-package architecture:
 
-1. Update `package.json` in each template to use `"watercolor-ui": "^1.1.16"`
-2. Update the CSS import paths (see individual template READMEs for details)
+- React: `@zeturn/watercolor-react` + `import '@zeturn/watercolor-react/style.css'`
+- Vue: `@zeturn/watercolor-vue` + `import '@zeturn/watercolor-vue/style.css'`
 
-The templates work out of the box with the included configuration and successfully build for production.
+Some Watercolor components dynamically import optional icon packs. For production builds (Vite/Rollup), you may need to install the icon packages referenced by the UI package.
 
 ## 🛠️ Technology Stack
 
 ### React Template
-- React 19
+- React 18
 - Vite 
 - React Router
-- Watercolor UI
+- @zeturn/watercolor-react
 
 ### Vue Template
 - Vue 3 (Composition API)
 - Vite
 - Vue Router
-- Watercolor UI
+- @zeturn/watercolor-vue
 
 ## 📚 Documentation
 

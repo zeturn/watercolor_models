@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { 
-  AppBar, Button, Typography, Card, Container, 
-  Table, Badge, Avatar, Progress, Menu, Alert
-} from 'watercolor-ui/react'
+import { Alert, AppBar, Avatar, Badge, Button, Card, Container, Progress, Typography } from '@zeturn/watercolor-react'
 
 function DashboardPage() {
   const navigate = useNavigate()

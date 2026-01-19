@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Button, Typography, Card, Container, AppBar, Feature, Badge, Avatar } from 'watercolor-ui/react'
+import { AppBar, Avatar, Badge, Button, Card, Container, Feature, Typography } from '@zeturn/watercolor-react'
 
 function LandingPage() {
   const navigate = useNavigate()

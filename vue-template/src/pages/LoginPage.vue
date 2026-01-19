@@ -92,7 +92,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { Button, Input, Card, Typography, Checkbox, Alert } from 'watercolor-ui/vue'
+import { Alert, Button, Card, Checkbox, Input, Typography } from '@zeturn/watercolor-vue'
 
 const router = useRouter()
 const email = ref('')

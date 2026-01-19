@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Button, Input, Card, Typography, Checkbox, Alert } from 'watercolor-ui/react'
+import { Alert, Button, Card, Checkbox, Input, Typography } from '@zeturn/watercolor-react'
 
 function LoginPage() {
   const navigate = useNavigate()

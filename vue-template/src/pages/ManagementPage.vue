@@ -205,10 +205,20 @@
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { 
-  AppBar, Button, Typography, Card, Container, 
-  Input, Select, Modal, Badge, Avatar, Pagination,
-  Alert, Tabs
-} from 'watercolor-ui/vue'
+  Alert,
+  AppBar,
+  Avatar,
+  Badge,
+  Button,
+  Card,
+  Container,
+  Input,
+  Modal,
+  Pagination,
+  Select,
+  Tabs,
+  Typography,
+} from '@zeturn/watercolor-vue'
 
 const router = useRouter()
 const isModalOpen = ref(false)

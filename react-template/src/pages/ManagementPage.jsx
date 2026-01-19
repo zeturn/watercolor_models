@@ -1,10 +1,20 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { 
-  AppBar, Button, Typography, Card, Container, 
-  Input, Select, Modal, Badge, Avatar, Pagination,
-  Alert, Checkbox, Tabs
-} from 'watercolor-ui/react'
+  Alert,
+  AppBar,
+  Avatar,
+  Badge,
+  Button,
+  Card,
+  Container,
+  Input,
+  Modal,
+  Pagination,
+  Select,
+  Tabs,
+  Typography,
+} from '@zeturn/watercolor-react'
 
 function ManagementPage() {
   const navigate = useNavigate()

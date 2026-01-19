@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import '../node_modules/watercolor-ui/dist/watercolor-react.css'
+import '@zeturn/watercolor-react/style.css'
 import './App.css'
 
 // Pages

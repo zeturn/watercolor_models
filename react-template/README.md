@@ -48,19 +48,7 @@ This template demonstrates the design philosophy and capabilities of Watercolor 
 
 ## 📦 Installation
 
-**Note**: This template uses a locally built version of watercolor-ui. To use the published npm package instead:
-
-1. Update `package.json` to use the published version:
-   ```json
-   "watercolor-ui": "^1.1.16"
-   ```
-
-2. Update the CSS import in `src/App.jsx`:
-   ```javascript
-   import 'watercolor-ui/dist/watercolor-react.css'
-   ```
-
-Or continue using the local version:
+Install dependencies:
 
 ```bash
 # Install dependencies
@@ -78,10 +66,10 @@ npm run preview
 
 ## 🛠️ Technology Stack
 
-- **React 19** - UI framework
+- **React 18** - UI framework
 - **Vite** - Build tool
 - **React Router** - Client-side routing
-- **Watercolor UI** - Component library
+- **@zeturn/watercolor-react** - Component library
 
 ## 📁 Project Structure
 
@@ -117,7 +105,7 @@ The app uses React Router for navigation. Each page demonstrates different aspec
 
 The template uses Watercolor UI's default theme. To customize:
 
-1. Import the CSS: `import 'watercolor-ui/style.css'`
+1. Import the CSS: `import '@zeturn/watercolor-react/style.css'`
 2. Use CSS variables for theming
 3. Create a `theme.config.json` for advanced theming
 

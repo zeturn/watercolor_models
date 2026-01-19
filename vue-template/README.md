@@ -46,19 +46,7 @@ This template demonstrates the design philosophy and capabilities of Watercolor 
 
 ## 📦 Installation
 
-**Note**: This template uses a locally built version of watercolor-ui. To use the published npm package instead:
-
-1. Update `package.json` to use the published version:
-   ```json
-   "watercolor-ui": "^1.1.16"
-   ```
-
-2. Update the CSS import in `src/App.vue`:
-   ```javascript
-   import 'watercolor-ui/dist/watercolor-vue.css'
-   ```
-
-Or continue using the local version:
+Install dependencies:
 
 ```bash
 # Install dependencies
@@ -79,7 +67,7 @@ npm run preview
 - **Vue 3** - Progressive JavaScript framework with Composition API
 - **Vite** - Next generation build tool
 - **Vue Router** - Official router for Vue.js
-- **Watercolor UI** - Component library
+- **@zeturn/watercolor-vue** - Component library
 
 ## 📁 Project Structure
 
@@ -116,7 +104,7 @@ The app uses Vue Router for navigation. Each page demonstrates different aspects
 
 The template uses Watercolor UI's default theme. To customize:
 
-1. Import the CSS: `import 'watercolor-ui/dist/watercolor-vue.css'`
+1. Import the CSS: `import '@zeturn/watercolor-vue/style.css'`
 2. Use CSS variables for theming
 3. Create a `theme.config.json` for advanced theming
 

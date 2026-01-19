@@ -1,6 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import '../node_modules/watercolor-ui/dist/watercolor-vue.css'
+import '@zeturn/watercolor-vue/style.css'
 </script>
 
 <template>

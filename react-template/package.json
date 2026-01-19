@@ -10,15 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.12.0",
-    "watercolor-ui": "file:../../../../../../tmp/watercolor-repo/watercolor-ui-1.1.16.tgz"
+    "@zeturn/watercolor-react": "^1.1.39",
+    "@zeturn/watercolor-icons-feather": "^1.1.39",
+    "@zeturn/watercolor-icons-heroicons-react": "^1.1.39",
+    "@zeturn/watercolor-icons-lucide-react": "^1.1.39",
+    "@zeturn/watercolor-icons-phosphor-react": "^1.1.39",
+    "@zeturn/watercolor-icons-tabler-react": "^1.1.39",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.12.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^5.1.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",

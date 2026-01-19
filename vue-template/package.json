@@ -9,9 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@zeturn/watercolor-vue": "^1.1.39",
+    "@zeturn/watercolor-icons-feather": "^1.1.39",
+    "@zeturn/watercolor-icons-heroicons-vue": "^1.1.39",
+    "@zeturn/watercolor-icons-lucide-vue": "^1.1.39",
+    "@zeturn/watercolor-icons-phosphor-vue": "^1.1.39",
+    "@zeturn/watercolor-icons-tabler-vue": "^1.1.39",
     "vue": "^3.5.24",
-    "vue-router": "^4.6.4",
-    "watercolor-ui": "file:../../../../../../tmp/watercolor-repo/watercolor-ui-1.1.16.tgz"
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",

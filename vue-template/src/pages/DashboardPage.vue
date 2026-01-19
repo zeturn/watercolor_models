@@ -110,9 +110,16 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { 
-  AppBar, Button, Typography, Card, Container, 
-  Badge, Avatar, Progress, Alert
-} from 'watercolor-ui/vue'
+  Alert,
+  AppBar,
+  Avatar,
+  Badge,
+  Button,
+  Card,
+  Container,
+  Progress,
+  Typography,
+} from '@zeturn/watercolor-vue'
 
 const router = useRouter()
 const showAlert = ref(true)

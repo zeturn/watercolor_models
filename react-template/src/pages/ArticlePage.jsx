@@ -1,8 +1,15 @@
 import { useNavigate } from 'react-router-dom'
 import { 
-  AppBar, Button, Typography, Card, Container, 
-  Breadcrumb, Badge, Avatar, Chip 
-} from 'watercolor-ui/react'
+  AppBar,
+  Avatar,
+  Badge,
+  Breadcrumb,
+  Button,
+  Card,
+  Chip,
+  Container,
+  Typography,
+} from '@zeturn/watercolor-react'
 
 function ArticlePage() {
   const navigate = useNavigate()

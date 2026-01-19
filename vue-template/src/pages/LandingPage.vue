@@ -134,7 +134,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import { AppBar, Button, Typography, Card, Container, Feature, Badge, Avatar } from 'watercolor-ui/vue'
+import { AppBar, Avatar, Badge, Button, Card, Container, Feature, Typography } from '@zeturn/watercolor-vue'
 
 const router = useRouter()
 </script>
